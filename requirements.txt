@@ -1,2 +1,4 @@
 discord.py[voice]>=1.4.1
 googletrans
+discord.py
+
