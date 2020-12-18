@@ -10,6 +10,14 @@ token = os.environ['DISCORD_BOT_TOKEN']
 
 @client.event
 async def on_ready():
+    print('--------------')
+    print('ログインしました')
+    print(client.user.name)
+    print(client.user.id)
+    print('--------------')
+
+@client.event
+async def on_ready():
 
     ch_name = "trans-start"
 
